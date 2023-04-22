@@ -1,9 +1,51 @@
 body {
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+input {
+  color: rgb(59, 57, 57);
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+
+::placeholder {
+  color: rgb(59, 57, 57);
+}
+
+.red {
+  background-color: rgb(254, 94, 94);
+}
+
+.yellow {
+  background-color: rgb(251, 251, 120);
+}
+
+.green {
+  background-color: rgb(110, 207, 110);
+}
+
+.blue {
+  background-color: rgb(54, 182, 241);
 }
 
