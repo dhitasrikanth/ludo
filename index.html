@@ -23,13 +23,58 @@
             <input type="text" class="green" placeholder="Green Player"><br>
             <input type="text" class="blue" placeholder="Blue Player"><br>
             <button class="play">Play</button><br>
+            <span class="note">If there are only two players playing, then enter two names. Same applies with three players.</span>
           </div>
         </div>
       </div>
       <div class="mainframe">
-        <div class="board">
+        <div class="diceboard">
           <div class="info">
+            <span class="playername">
+              Player 1
+            </span>
+            <div class="r-dice" onclick="dice(this, 0)">
+              0
+            </div>
+          </div>
+          <div class="info">
+            <div class="b-dice" onclick="dice(this, 0)">
+              0
+            </div>
+            <span class="playername">
+              Player 4
+            </span>
+          </div>
+        </div>
 
+        <div class="mdiceboard">
+          <div class="info">
+            <span class="mplayername">
+              Player 1
+            </span>
+            <div class="r-dice" onclick="dice(this, 0)">
+              0
+            </div>
+          </div>
+
+          <div class="info">
+            <span class="mplayername">
+              Player 2
+            </span>
+            <div class="g-dice" onclick="dice(this, 0)">
+              0
+            </div>
+          </div>
+        </div>
+
+        <div class="ludoboard">
+          <div class="red">
+            <div class="playerzone">
+              <div class="player">
+                <span onclick="movered(this,0)" class="rp r material-cons">stars</span>
+
+              </div>
+            </div>
           </div>
         </div>
       </div>
